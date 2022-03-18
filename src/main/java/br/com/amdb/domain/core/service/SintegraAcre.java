@@ -10,7 +10,6 @@ public class SintegraAcre {
             return false;
 
         String[] strArray = sintegra.split("");
-
         long b = 4;
         long soma = 0;
         long dig = 0;
