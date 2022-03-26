@@ -12,10 +12,7 @@ public class SintegraAmapa {
         long i = Long.valueOf(sintegra.substring(0, sintegra.length()-1)).longValue();
         String[] strArray = sintegra.split("");
         long b = 9;
-        long soma = 0;
-        long dig = 0;
-        long p = 0;
-        long d = 0;
+        long soma = 0, dig = 0, p = 0, d = 0;
 
         if ((i >= 3000001) && (i <=3017000)) {
             p =5;

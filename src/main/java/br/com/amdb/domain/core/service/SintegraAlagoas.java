@@ -11,8 +11,7 @@ public class SintegraAlagoas {
 
         String[] strArray = sintegra.split("");
         long b = 9;
-        long soma = 0;
-        long dig = 0;
+        long soma = 0, dig = 0;
 
         for (int i = 0; i<=7; i++) {
             soma+= Long.valueOf(strArray[i]).longValue() * b;

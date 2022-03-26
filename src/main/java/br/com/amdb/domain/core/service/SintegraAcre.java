@@ -11,9 +11,7 @@ public class SintegraAcre {
 
         String[] strArray = sintegra.split("");
         long b = 4;
-        long soma = 0;
-        long dig = 0;
-        long dv = 0;
+        long soma = 0, dig = 0, dv = 0;
 
         for (int i = 0; i <= 10; i++) {
             soma+= Long.valueOf(strArray[i]).longValue() * b;
