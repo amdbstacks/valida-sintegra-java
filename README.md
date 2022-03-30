@@ -52,13 +52,14 @@ Com as declarações dos estados como descrito acima, basta agora a instância d
 import br.com.amdb.domain.enumeration.Estados;
 import br.com.amdb.adapters.Sintegra;
 
-class MinhaClasse 
-{
-	public function validar() {
+public class MinhaClasse {
+    
+	public void validar() {
+        
         Sintegra sintegra = new Sintegra();
         boolean validacao = sintegra.validar("0100482300112", Estados.AC);
         
-        if (validacao)
+        if (!validacao)
         	throw new RuntimeException("Sintegra inválido!");
     }
 }
