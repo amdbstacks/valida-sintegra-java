@@ -1,7 +1,8 @@
 package br.com.amdb.domain.core.service;
 
-public class SintegraParana {
+public class SintegraParana extends Validacao{
 
+    @Override
     public boolean validar(String sintegra) {
         if (sintegra.length() != 10)
             return false;

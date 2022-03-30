@@ -5,8 +5,9 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SintegraMG {
+public class SintegraMG extends Validacao{
 
+    @Override
     public boolean validar(String sintegra) {
         if (sintegra.length() != 13)
             return false;

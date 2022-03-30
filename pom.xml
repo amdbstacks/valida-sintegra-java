@@ -6,7 +6,7 @@
 
     <groupId>br.com.amdb</groupId>
     <artifactId>valida-sintegra-java</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-0</version>
     <description>Validador de Sintegra para estados brasileiros.</description>
 
     <properties>
@@ -19,6 +19,11 @@
             <artifactId>lombok</artifactId>
             <version>1.18.22</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.12.0</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

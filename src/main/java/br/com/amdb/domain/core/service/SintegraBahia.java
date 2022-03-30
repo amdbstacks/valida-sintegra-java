@@ -2,8 +2,9 @@ package br.com.amdb.domain.core.service;
 
 import java.util.Arrays;
 
-public class SintegraBahia {
+public class SintegraBahia extends Validacao{
 
+    @Override
     public boolean validar(String sintegra) {
         if (sintegra.length() != 8)
             return false;

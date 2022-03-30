@@ -14,6 +14,7 @@ public enum Estados {
     BA("Bahia"),
     CE("Ceará"),
     DF("Distrito Federal"),
+    ES("Espirito Santo"),
     GO("Goiás"),
     MA("Maranhão"),
     MT("Mato Grosso"),
