@@ -4,7 +4,7 @@
 
     <groupId>io.github.amdb-dev</groupId>
     <artifactId>valida-sintegra-java</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.0</version>
     <description>Validador de Sintegra para estados brasileiros.</description>
 
     <properties>
@@ -51,8 +51,8 @@
     </dependencies>
     <distributionManagement>
         <snapshotRepository>
-            <id>snapshot-repository</id>
-            <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
