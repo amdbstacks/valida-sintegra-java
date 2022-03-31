@@ -8,7 +8,7 @@ A biblioteca foi escrita agnostica a fremework, podendo ser usada como component
 
 ``` 
 <dependency>
-    <groupId>br.com.amdb</groupId>
+    <groupId>io.github.amdb-dev</groupId>
     <artifactId>valida-sintegra-java</artifactId>
     <version>1.0.0</version>
 </dependency>
