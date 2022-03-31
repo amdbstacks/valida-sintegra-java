@@ -4,7 +4,7 @@
 
     <groupId>io.github.amdb-dev</groupId>
     <artifactId>valida-sintegra-java</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <description>Validador de Sintegra para estados brasileiros.</description>
 
     <properties>
@@ -15,7 +15,7 @@
         <connection>scm:git:git://github.com/amdb-dev/valida-sintegra-java.git</connection>
         <developerConnection>scm:git:git@github.com:amdb-dev/valida-sintegra-java.git</developerConnection>
         <url>https://github.com/amdb-dev/valida-sintegra-java</url>
-        <tag>valida-sintegra-java-1.0.1</tag>
+        <tag>valida-sintegra-java-1.0.0</tag>
     </scm>
     <licenses>
         <license>
