@@ -4,8 +4,10 @@
 
     <groupId>io.github.amdb-dev</groupId>
     <artifactId>valida-sintegra-java</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
+    <name>valida-sintegra-java</name>
     <description>Validador de Sintegra para estados brasileiros.</description>
+    <url>https://github.com/amdb-dev/valida-sintegra-java</url>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -154,4 +156,38 @@
             </plugin>
         </plugins>
     </build>
+    <profiles>
+        <!-- GPG Signature on release -->
+        <profile>
+            <id>sign-artifacts</id>
+            <activation>
+                <property>
+                    <name>performRelease</name>
+                    <value>true</value>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>3.0.1</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                                <configuration>
+                                    <homedir>${gpg.homedir}</homedir>
+                                    <passphrase>${gpg.passphrase}</passphrase>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>
