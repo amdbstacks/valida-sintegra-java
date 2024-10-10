@@ -6,7 +6,7 @@ A biblioteca foi escrita agnostica a fremework, podendo ser usada como component
 
 # Instalação
 
-``` 
+```xml
 <dependency>
     <groupId>io.github.amdbstacks</groupId>
     <artifactId>valida-sintegra</artifactId>
